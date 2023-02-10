@@ -1,0 +1,9 @@
+FROM metaheed/kolle-ci
+
+SHELL ["/bin/bash", "-c"]
+
+
+RUN useradd -m kolle && echo "kolle:kolle" | chpasswd && adduser kolle sudo
+USER kolle
+
+CMD ["/bin/bash"]
