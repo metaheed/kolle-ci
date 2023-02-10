@@ -6,7 +6,7 @@
 #git checkout -b dev
 #git push --set-upstream origin dev
 
-release_version="v0.0.1"
+release_version="v0.0.2"
 
 #release_version="v$(date +'%Y.%m.%d.%H%M%S')"
 
